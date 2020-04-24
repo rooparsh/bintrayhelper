@@ -7,3 +7,11 @@ apply from: 'https://raw.githubusercontent.com/rooparsh/bintrayhelper/master/scr
 ```
 
 at the bottom of your library gradle
+
+Keep your bintray credentials in local.properties
+as
+bintray.user=XXXXX
+bintray.apikey=XXXXXXXXXXXX
+
+You can find your bintray credentials from https://bintray.com/profile/edit
+Keep your local.properties in .gitignore
